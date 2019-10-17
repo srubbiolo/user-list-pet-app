@@ -1,0 +1,27 @@
+.user-card {
+    margin-top: 20px;
+    margin-right: 60px;
+    border-radius: 2.25rem;
+    width: 225px;
+    cursor: pointer;
+}
+
+.user-card.selected {
+    opacity: 0.75;
+    background-color: rgb(236, 236, 236);
+}
+
+.card-body {
+    padding: 0;
+}
+
+.user-card:hover{
+    opacity: 0.75;
+    background-color: rgb(236, 236, 236);
+}
+
+.user-card img{
+    border-radius: 50%;
+    border: solid rgb(123, 152, 214) 1px;
+    margin-right: 10px;
+}

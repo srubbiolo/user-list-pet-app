@@ -1,0 +1,38 @@
+.user-info-big {
+    width: 400px;
+}
+
+.background-profile-image {
+    filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    margin: -5px -8px 0 0px;
+    height: 300px;
+}
+
+.user-info-big {
+    overflow: hidden;
+}
+
+.profile-image-circle {
+    position: absolute;
+    top: 70px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.profile-name-and-profesion {
+    position: absolute;
+    top: 230px;
+    left: 0; 
+    right: 0; 
+    color: white;
+    text-align: center;
+}
